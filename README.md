@@ -12,9 +12,8 @@ Start mysql server and edit the conf file under ...\RestaurantReview\conf\applic
 -enter mysql password 
 
 To successfully run the application, system needs two things.
-
-1. SBT to run Play2 framework.
-2. MySql server.
+-SBT to run Play2 framework.
+-MySql server.
 
 In the application.conf file present in conf folder, please change default.username and default.password of MySql server according to your mySQL server credentials. The default.url points to the database schema it is connected to.
 
